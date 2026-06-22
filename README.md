@@ -3,7 +3,7 @@
 A modern, highly responsive, and fully web-accessible (A11y) interactive image gallery built using vanilla HTML5, CSS3, and modern JavaScript (ES6+). This project demonstrates a clean software engineering approach to building robust user interfaces without relying on heavy external frameworks.
 
 ## 🚀 Live Demo
-Experience the live application here: **[[https://github.com/tesfaahun19/CodeAlpha_Portfolio.git](https://github.com/tesfahun19/CodeAlpha_Portfolio.git)]**
+Experience the live application here: ** https://tesfahun19.github.io/CodeAlpha_ImageGallery/**
 
 ---
 
