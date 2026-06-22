@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An interactive image gallery with category filtering and lightbox modal.">
+    <title>CodeAlpha - Fully Accessible Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gallery-container">
+        <header>
+            <h1>Interactive Image Gallery</h1>
+            <p>A clean, professional software engineering approach to accessible UI design</p>
+        </header>
+        
+        <div class="filter-container">
+            <button class="filter-btn active" data-category="all" aria-pressed="true">All</button>
+            <button class="filter-btn" data-category="nature" aria-pressed="false">Nature</button>
+            <button class="filter-btn" data-category="architecture" aria-pressed="false">Architecture</button>
+            <button class="filter-btn" data-category="animals" aria-pressed="false">Animals</button>
+        </div>
+
+        <main class="gallery-grid" id="galleryGrid"></main>
+    </div>
+
+    <div class="lightbox" id="lightboxModal" role="dialog" aria-modal="true" aria-labelledby="lightboxCaption">
+        
+        <div class="lightbox-counter" id="lightboxCounter"></div>
+        
+        <button class="close-btn" id="closeBtn" aria-label="Close lightbox">&times;</button>
+        
+        <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous image">&#10094;</button>
+        
+        <div class="lightbox-content">
+            <img id="lightboxImg" src="" alt="Popup View">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+        
+        <button class="nav-btn next-btn" id="nextBtn" aria-label="Next image">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
